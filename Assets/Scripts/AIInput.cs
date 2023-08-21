@@ -39,6 +39,6 @@ public class AIInput : MonoBehaviour
             return;
         }
 
-        movement.Move(-(int)Mathf.Sign(distanceToCover));
+        movement.Move((int)Mathf.Sign(distanceToCover));
     }
 }
